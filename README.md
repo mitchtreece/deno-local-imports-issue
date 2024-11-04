@@ -1,7 +1,6 @@
 # Deno Local Imports Issue
 
 - Original issue: [#26704](https://github.com/denoland/deno/issues/26704)
-- New issue [TODO](https://github.com/denoland/deno/issues/26704)
 
 ## Overview
 
