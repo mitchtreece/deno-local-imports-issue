@@ -1,0 +1,14 @@
+{
+    "name": "@pkg/printer",
+    "version": "1.0.0",
+    "exports": "./mod.ts",
+    "tasks": {
+        "test": "deno run -A --watch test.ts"
+    },
+    "imports": {
+        "@pkg/formatter": "jsr:@pkg/formatter@1.0.0"
+    },
+    "patch": [
+        "../formatter"
+    ]
+}
